@@ -25,7 +25,7 @@ const Home = () => {
 
   return (
     <div className="w-full sm:h-[92vh] bg-zinc-800 flex flex-col justify-between align-center items-center pt-10 pb-[10px]">
-      <div className="w-full max-w-[1240px] grid md:grid-rows-6 lg:grid-cols-4 md:grid-cols-3 p-4 sm:grid-cols-2 gap-10">
+      <div className="w-full max-w-[1240px] grid md:grid-rows-6 lg:grid-cols-4 md:grid-cols-3 p-4 sm:grid-cols-2 gap-10 shadow-2xl">
         {currentPokemon && currentPokemon.map((pokemon) => (
           <div
             key={pokemon.name}
